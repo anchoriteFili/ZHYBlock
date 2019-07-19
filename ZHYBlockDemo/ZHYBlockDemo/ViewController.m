@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZHBlockViewController.h"
+#import "BlockTest.h"
 
 @interface ViewController ()
 
@@ -18,7 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[[BlockTest alloc] init] blockTestOne];
 }
+
 
 // 跳转页面
 - (IBAction)jumpVC:(UIButton *)sender {

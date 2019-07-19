@@ -73,7 +73,6 @@ typedef void(^ZHYBlockOne) (ZHBlockViewController *);
     self.blockOne(self);
 }
 
-
 - (void)dealloc {
     NSLog(@"页面得到了释放。。。。。。");
 }

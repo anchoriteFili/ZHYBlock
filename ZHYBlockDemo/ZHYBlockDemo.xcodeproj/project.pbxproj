@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F98DF41022E04B3000F2AF8E /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DF40F22E04B3000F2AF8E /* BlockTest.m */; };
 		F9A8B6DE22DF06E7006C81E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A8B6DD22DF06E7006C81E1 /* AppDelegate.m */; };
 		F9A8B6E122DF06E7006C81E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A8B6E022DF06E7006C81E1 /* ViewController.m */; };
 		F9A8B6E422DF06E7006C81E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A8B6E222DF06E7006C81E1 /* Main.storyboard */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F98DF40E22E04B3000F2AF8E /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
+		F98DF40F22E04B3000F2AF8E /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
+		F98DF41122E04BE400F2AF8E /* blockTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blockTest.cpp; sourceTree = "<group>"; };
 		F9A8B6D922DF06E7006C81E1 /* ZHYBlockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYBlockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A8B6DC22DF06E7006C81E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9A8B6DD22DF06E7006C81E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,10 +65,13 @@
 		F9A8B6DB22DF06E7006C81E1 /* ZHYBlockDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F98DF41122E04BE400F2AF8E /* blockTest.cpp */,
 				F9A8B6DC22DF06E7006C81E1 /* AppDelegate.h */,
 				F9A8B6DD22DF06E7006C81E1 /* AppDelegate.m */,
 				F9A8B6DF22DF06E7006C81E1 /* ViewController.h */,
 				F9A8B6E022DF06E7006C81E1 /* ViewController.m */,
+				F98DF40E22E04B3000F2AF8E /* BlockTest.h */,
+				F98DF40F22E04B3000F2AF8E /* BlockTest.m */,
 				F9A8B6F222DF0715006C81E1 /* ZHBlockViewController.h */,
 				F9A8B6F322DF0715006C81E1 /* ZHBlockViewController.m */,
 				F9A8B6E222DF06E7006C81E1 /* Main.storyboard */,
@@ -146,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98DF41022E04B3000F2AF8E /* BlockTest.m in Sources */,
 				F9A8B6E122DF06E7006C81E1 /* ViewController.m in Sources */,
 				F9A8B6EC22DF06E7006C81E1 /* main.m in Sources */,
 				F9A8B6F422DF0715006C81E1 /* ZHBlockViewController.m in Sources */,
